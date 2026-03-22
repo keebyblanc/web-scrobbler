@@ -2802,6 +2802,17 @@ export default <ConnectorMeta[]>[
 		id: 'bossajazzbrazil',
 	},
 	{
+		label: 'Swing Music',
+		matches: [
+			'*://0.0.0.0:1970/*',
+			'*://127.0.0.1:1970/*',
+			'*://10.89.0.2:1970/*',
+			'*://localhost:1970/*',
+		],
+		js: 'swingmusic.js',
+		id: 'swingmusic',
+	},
+	{
 		label: 'Kiss rádio',
 		matches: ['*://www.kiss.cz/online/*'],
 		js: 'kiss.js',
