@@ -2739,6 +2739,7 @@ export default <ConnectorMeta[]>[
 			'*://monochrome.tf/*',
 			'*://monochrome.samidy.com/*',
 			'*://monochrome-back.pages.dev/*',
+			'*://monochromemusic.pages.dev/*',
 		],
 		js: 'monochrome.js',
 		id: 'monochrome',
